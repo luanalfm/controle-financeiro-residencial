@@ -79,7 +79,7 @@ Padrão em `src/Api/appsettings.json`:
 
 Resumo:
 
-- **POST** `/api/pessoas` — `{ "nome": "Maria", "idade": 30 }`
+- **POST** `/api/pessoas` — `{ "nome": "Luana", "idade": 25 }`
 - **POST** `/api/categorias` — `{ "descricao": "Alimentação", "finalidade": 0 }` (0=Despesa, 1=Receita, 2=Ambas)
 - **POST** `/api/transacoes` — `{ "descricao": "Compras", "valor": 150.50, "tipo": 0, "categoriaId": "...", "pessoaId": "..." }` (tipo: 0=Despesa, 1=Receita)
 - **GET** `/api/consultas/totais-por-pessoa`
